@@ -10,6 +10,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(next-error-recenter 0)
  '(package-selected-packages
    (quote
     (ivy-rtags modern-cpp-font-lock json-mode cmake-mode gnu-elpa-keyring-update pyenv-mode pangu-spacing projectile python-mode org markdown-mode magit rtags)))

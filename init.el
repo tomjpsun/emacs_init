@@ -43,6 +43,9 @@
 (global-set-key (kbd "<f11>") (lambda () (interactive) (other-frame 1)))
 (global-set-key (kbd "<f12>") (lambda () (interactive) (other-frame -1)))
 
+;; switch window
+(global-set-key (kbd "M-o") #'other-window)
+
 ;; set shortcut to kill whole emacs session
 (global-set-key (kbd "C-x c") 'save-buffers-kill-emacs)
 

@@ -110,6 +110,10 @@
 ;; smooth scroll
 (setq scroll-margin 0 scroll-conservatively 10000 )
 
+;; scroll up/down page (alternaties to "C-v" "M-v")
+(global-set-key (kbd "ESC <down>") 'scroll-up-command)
+(global-set-key (kbd "ESC <up>") 'scroll-down-command)
+
 ;; highlight parenthesis
 (transient-mark-mode t)
 

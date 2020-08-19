@@ -111,8 +111,8 @@
 (setq scroll-margin 0 scroll-conservatively 10000 )
 
 ;; page scroll other window
-(global-set-key (kbd "ESC <down>") 'scroll-up-command)
-(global-set-key (kbd "ESC <up>") 'scroll-down-command)
+(global-set-key (kbd "ESC <down>") 'scroll-other-window)
+(global-set-key (kbd "ESC <up>") 'scroll-other-window-down)
 
 ;; highlight parenthesis
 (transient-mark-mode t)

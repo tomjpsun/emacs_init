@@ -125,6 +125,9 @@
 ;; for clear git diff
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 
+;; disable automatic python doc
+(global-eldoc-mode -1)
+
 ;; glsl-mode
 ;;(require 'glsl-mode)
 ;;(autoload 'glsl-mode "glsl-mode" nil t)

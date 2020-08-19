@@ -110,7 +110,7 @@
 ;; smooth scroll
 (setq scroll-margin 0 scroll-conservatively 10000 )
 
-;; (alternaties to "C-v" "M-v") in case they were incepted by OS
+;; page scroll other window
 (global-set-key (kbd "ESC <down>") 'scroll-up-command)
 (global-set-key (kbd "ESC <up>") 'scroll-down-command)
 

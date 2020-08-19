@@ -110,7 +110,7 @@
 ;; smooth scroll
 (setq scroll-margin 0 scroll-conservatively 10000 )
 
-;; scroll up/down page (alternaties to "C-v" "M-v")
+;; (alternaties to "C-v" "M-v") in case they were incepted by OS
 (global-set-key (kbd "ESC <down>") 'scroll-up-command)
 (global-set-key (kbd "ESC <up>") 'scroll-down-command)
 
@@ -129,7 +129,7 @@
 ;; for clear git diff
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 
-;; disable automatic python doc
+;; disable annoying automatically python doc
 (global-eldoc-mode -1)
 
 ;; glsl-mode
